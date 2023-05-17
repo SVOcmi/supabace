@@ -1,5 +1,5 @@
 .arrow-cross {
-    background-image: url(../icon/arrow-cross.svg);
+    background-image: url(icon/arrow-cross.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -7,7 +7,7 @@
 }
 
 .arrow-down {
-    background-image: url(../icon/arrow-down.svg);
+    background-image: url(icon/arrow-down.svg);
     background-repeat: no-repeat;
     display: block;
     color: #fff;
@@ -16,7 +16,7 @@
 }
 
 .arrow-right-top {
-    background-image: url(../icon/arrow-right-top.svg);
+    background-image: url(icon/arrow-right-top.svg);
     background-repeat: no-repeat;
     display: block;
     width: 18px;
@@ -24,7 +24,7 @@
 }
 
 .cilinder {
-    background-image: url(../icon/cilinder.svg);
+    background-image: url(icon/cilinder.svg);
     background-repeat: no-repeat;
     display: block;
     width: 11px;
@@ -32,7 +32,7 @@
 }
 
 .conection {
-    background-image: url(../icon/conection.svg);
+    background-image: url(icon/conection.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -40,7 +40,7 @@
 }
 
 .cross {
-    background-image: url(../icon/cross.svg);
+    background-image: url(icon/cross.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -48,7 +48,7 @@
 }
 
 .copy {
-    background-image: url(../icon/copy.svg);
+    background-image: url(icon/copy.svg);
     background-repeat: no-repeat;
     display: block;
     width: 14px;
@@ -56,7 +56,7 @@
 }
 
 .galka {
-    background-image: url(../icon/galka.svg);
+    background-image: url(icon/galka.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -64,7 +64,7 @@
 }
 
 .git {
-    background-image: url(../icon/git.svg);
+    background-image: url(icon/git.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -72,7 +72,7 @@
 }
 
 .git-o {
-    background-image: url(../icon/git-o.svg);
+    background-image: url(icon/git-o.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
@@ -80,7 +80,7 @@
 }
 
 .key {
-    background-image: url(../icon/key.svg);
+    background-image: url(icon/key.svg);
     background-repeat: no-repeat;
     display: block;
     width: 12px;
@@ -88,7 +88,7 @@
 }
 
 .logo-little {
-    background-image: url(../icon/logo-little.png);
+    background-image: url(icon/logo-little.png);
     background-repeat: no-repeat;
     display: block;
     width: 24px;
@@ -96,7 +96,7 @@
 }
 
 .moon {
-    background-image: url(../icon/moon.svg);
+    background-image: url(icon/moon.svg);
     background-repeat: no-repeat;
     display: block;
     width: 20px;
@@ -104,7 +104,7 @@
 }
 
 .storage {
-    background-image: url(../icon/storage.svg);
+    background-image: url(icon/storage.svg);
     background-repeat: no-repeat;
     display: block;
     width: 16px;
@@ -112,7 +112,7 @@
 }
 
 .sun {
-    background-image: url(../icon/sun.svg);
+    background-image: url(icon/sun.svg);
     background-repeat: no-repeat;
     display: block;
     width: 28px;
@@ -120,7 +120,7 @@
 }
 
 .twitter {
-    background-image: url(../icon/twitter.svg);
+    background-image: url(icon/twitter.svg);
     background-repeat: no-repeat;
     display: block;
     width: 20px;
@@ -128,7 +128,7 @@
 }
 
 .wi-fi {
-    background-image: url(../icon/wi-fi.svg);
+    background-image: url(icon/wi-fi.svg);
     background-repeat: no-repeat;
     display: block;
     width: 21px;
