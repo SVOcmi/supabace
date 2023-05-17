@@ -1,0 +1,136 @@
+.arrow-cross {
+    background-image: url(../icon/arrow-cross.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.arrow-down {
+    background-image: url(../icon/arrow-down.svg);
+    background-repeat: no-repeat;
+    display: block;
+    color: #fff;
+    width: 11px;
+    height: 7px;
+}
+
+.arrow-right-top {
+    background-image: url(../icon/arrow-right-top.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.cilinder {
+    background-image: url(../icon/cilinder.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 11px;
+    height: 12px;
+}
+
+.conection {
+    background-image: url(../icon/conection.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.cross {
+    background-image: url(../icon/cross.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.copy {
+    background-image: url(../icon/copy.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 14px;
+    height: 14px;
+}
+
+.galka {
+    background-image: url(../icon/galka.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.git {
+    background-image: url(../icon/git.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.git-o {
+    background-image: url(../icon/git-o.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.key {
+    background-image: url(../icon/key.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 12px;
+}
+
+.logo-little {
+    background-image: url(../icon/logo-little.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.moon {
+    background-image: url(../icon/moon.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.storage {
+    background-image: url(../icon/storage.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 14px;
+}
+
+.sun {
+    background-image: url(../icon/sun.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.twitter {
+    background-image: url(../icon/twitter.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.wi-fi {
+    background-image: url(../icon/wi-fi.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 21px;
+    height: 21px;
+}

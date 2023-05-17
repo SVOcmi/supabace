@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supabace</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/icon.css">
+</head>
+
+<body>
+    <header>
+        <div class="burger-menu ">
+            <div class="burg__close-conteiner"> 
+                <img class="close-menu" src="icon/close-menu.png" onclick="closeBurgMenu()">
+            </div>
+            <ul class="menu__items">
+                <li class="item item-product item-spisok"  onclick="openHeaderMenuProduct()">
+                    <div class="name-item text">
+                        Product
+                    </div>
+                    <div class="header-menu__arrow">
+                        <i class="arrow-down"></i>
+                    </div>
+                    <div class="item-spisok__elements" id="header__el-product">
+                        <ul class="header__navigation-list">
+                            <li class="navigation-el text">
+                                Database
+                            </li>
+                            <li class="navigation-el text">
+                                Authentication
+                            </li>
+                            <li class="navigation-el text">
+                                Storage
+                            </li>
+                            <li class="navigation-el text">
+                                Functions
+                            </li>
+                            <li class="navigation-el text">
+                                Coming soon
+                            </li>
+                            <li class="navigation-el text">
+                                Pricing
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item item-developers item-spisok" onclick="openHeaderMenuDevelopers()">
+                    <div class="name-item text">
+                        Developers
+                    </div>
+                    <div class="header-menu__arrow">
+                        <i class="arrow-down"></i>
+                    </div>
+                    <div class="item-spisok__elements" id="header__el-developers">
+                        <ul class="header__navigation-list">
+                            <li class="navigation-el text">
+                                Documentation
+                            </li>
+                            <li class="navigation-el text">
+                                API Reference
+                            </li>
+                            <li class="navigation-el text">
+                                Guides
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item item-beta">
+                    <div class="name-item text">
+                        Beta
+                    </div>
+                </li>
+                <li class="item item-pricing">
+                    <div class="name-item text">
+                        Pricing
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="header-content">
+            <div class="header-content__items">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="btn-burger-menu">
+                            <img src="icon/menu.png" class="btn-burg-menu" onclick="openBurgMenu()">
+                        </div>
+                        <img src="image/logo.png" alt="logo supabace">
+                    </div>
+                    <ul class="menu__items">
+                        <li class="item item-product item-spisok"  onclick="openHeaderMenuProduct()">
+                            <div class="name-item text">
+                                Product
+                            </div>
+                            <div class="header-menu__arrow">
+                                <i class="arrow-down"></i>
+                            </div>
+                            <div class="item-spisok__elements" id="header__el-product">
+                                <ul class="header__navigation-list">
+                                    <li class="navigation-el text">
+                                        Database
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Authentication
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Storage
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Functions
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Coming soon
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Pricing
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item item-developers item-spisok" onclick="openHeaderMenuDevelopers()">
+                            <div class="name-item text">
+                                Developers
+                            </div>
+                            <div class="header-menu__arrow">
+                                <i class="arrow-down"></i>
+                            </div>
+                            <div class="item-spisok__elements" id="header__el-developers">
+                                <ul class="header__navigation-list">
+                                    <li class="navigation-el text">
+                                        Documentation
+                                    </li>
+                                    <li class="navigation-el text">
+                                        API Reference
+                                    </li>
+                                    <li class="navigation-el text">
+                                        Guides
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item item-beta">
+                            <div class="name-item text">
+                                Beta
+                            </div>
+                        </li>
+                        <li class="item item-pricing">
+                            <div class="name-item text">
+                                Pricing
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="registration">
+                    <div class="btn btn-start text">
+                        Start your project
+                    </div>
+                    <div class="btn btn__registration text">
+                        Sign in
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="start-page">
+            <div class="start-page__text">
+                <div class="start-page__block-1">
+                    <div class="storage-text text">
+                        <div class="back-icon-storage">
+                            <i class="storage"></i>
+                        </div>
+                        Storage
+                    </div>
+                    <div class="start-page__heading text">
+                        <div class="heading-text__block-1">
+                            Store and serve
+                        </div>
+                        <div class="heading-text__block-2">
+                            any type of digital content
+                        </div>
+                    </div>
+                </div>
+                <div class="start-page__block-2">
+                    <div class="start-page__second text">
+                        <div class="second-text__block-1">
+                            An open source Object store service with unlimited scalability, for any file type.
+                        </div>
+                        <div class="second-text__block-2">
+                            With custom policies and permissions that are familiar and easy to implement.
+                        </div>
+                    </div>
+                </div>
+                <div class="btn btn-main-page text">
+                    Start a project
+                </div>
+            </div>
+            <div class="start-page__img">
+                <img class="main-page" src="image/main.png" alt="main-picture">
+            </div>
+        </div>
+        <div class="list-positive">
+            <div class="items-list">
+                <div class="first-item">
+                    <div class="block-icons">
+                        <div class="back-1-icon">
+                            <i class="storage"></i>
+                        </div>
+                        <i class="cross"></i>
+                        <div class="back-2-icon">
+                            <i class="key"></i>
+                        </div>
+                        <i class="cross"></i>
+                        <div class="back-3-icon">
+                            <i class="cilinder"></i>
+                        </div>
+                    </div>
+                    <div class="block-heading text">
+                        Interoperable
+                    </div>
+                    <div class="block-description text">
+                        Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.
+                    </div>
+                </div>
+                <div class="second-item">
+                    <div class="block-icons">
+                        <div class="back-4-icon">
+                            <i class="conection"></i>
+                        </div>
+                    </div>
+                    <div class="block-heading text">
+                        Lightning fast
+                    </div>
+                    <div class="block-description text">
+                        Thin API server layer that leverages Postgres' permissions and performance.
+                    </div>
+                </div>
+                <div class="third-item">
+                    <div class="block-icons">
+                        <div class="back-5-icon">
+                            <i class="galka"></i>
+                        </div>
+                    </div>
+                    <div class="block-heading text">
+                        Dependable
+                    </div>
+                    <div class="block-description text">
+                        Enterprise-level scalability and durability.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-page">
+            <div class="dashboard-page__conteiner">
+                <div class="dashboard-page__heading-text text">
+                    Sleek dashboard for managing your media
+                </div>
+                <div class="dashboard-page__second-text text">
+                    A complete Object Explorer so that any of your team can use.
+                </div>
+                <div class="dashboard-page__third-text text">
+                    Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.
+                </div>
+                <div class="dashboard-page__content-page" data-switcher>
+                    <div class="dashboard-page__img-media">
+                        <div class="img-media__links" >
+                            <ul class="img-media__links-list switcher">
+                                <li data-switcher-show="0" data-switcher-selected class="dashboard__el-list text">
+                                    File previews
+                                </li>
+                                <li data-switcher-show="1" class="dashboard__el-list text">
+                                    Column view
+                                </li>
+                                <li data-switcher-show="2" class="dashboard__el-list text">
+                                    List view
+                                </li>
+                                <li data-switcher-show="3" class="dashboard__el-list text">
+                                    Multi select actions
+                                </li>
+                                <li data-switcher-show="4" class="dashboard__el-list text">
+                                    Path navigator
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img-media">
+                            <img src="image/dashboard.png">
+                        </div>
+                    </div>
+                    <div class="description-list-dashboard">
+                        <div class="heading-description">
+                            <div data-switcher-name="0" class="name-list-dashboard text">
+                                File previews
+                            </div>
+                            <div data-switcher-name="1" class="name-list-dashboard text">
+                                Column view
+                            </div>
+                            <div data-switcher-name="2" class="name-list-dashboard text">
+                                List view
+                            </div>
+                            <div data-switcher-name="3" class="name-list-dashboard text">
+                                Multi select actions
+                            </div>
+                            <div data-switcher-name="4" class="name-list-dashboard text">
+                                Path navigator
+                            </div>
+                            <div class="description-dashboard text">
+                                Preview any media type, including video and audio.
+                            </div>
+                        </div>
+                        <div class="example-app">
+                            <div class="example-app__heading text">
+                                Check out our example app
+                            </div>
+                            <div class="example-app__description">
+                                <div class="example-app__description-heading text">
+                                    Profile management example
+                                </div>
+                                <div class="example-app__description-text text">
+                                    Update a user account with public profile information, including uploading a profile image.
+                                </div>
+                                <div class="create-by">
+                                    <span class="create-by__heading text">Created by:</span>
+                                    <i class="logo-little"></i>
+                                    <span class="name-logo text">supabase</span>
+                                </div>
+                            </div>
+                            <div class="link-next-js">
+                                <span class="link-next-js__text text">nextjs-ts-user-management</span>
+                                <i class="git"></i>
+                            </div>
+                            <div class="btn blue-btn">
+                                <div class="arrow-i">
+                                    ▲
+                                </div>
+                                <div class="blue-btn__text text">
+                                    Deloy
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="apis-page">
+            <div class="apis-page__container">
+                <div class="apis-page__text-content"> 
+                    <div class="apis-page__heading">
+                        <div class="apis-page__heading-text text">
+                            Simple and convenient APIs
+                        </div>
+                        <div class="apis-page__second-text text">
+                            Built from the ground-up for interoperable authentication.
+                        </div>
+                        <div class="apis-page__third-text text">
+                            Fast and easy to implement using our powerful library clients. 
+                            Asset optimization and image transformation coming soon!
+                        </div>
+                    </div>
+                    <div class="apis-page__descriptions">
+                        <div class="cdn-block">
+                            <i class="wi-fi"></i>
+                            <div class="cdn-block__name text">
+                                CDN integration
+                            </div>
+                            <div class="cdn-block__description text">
+                                Serve from the edge to reduce latency.
+                            </div>
+                            <div class="btn btn-coming-soon text">
+                                Coming soon
+                            </div>
+                        </div>
+                        <div class="auto-block">
+                            <i class="arrow-cross"></i>
+                            <div class="auto-block__name text">
+                                Auto transformation & optimisation
+                            </div>
+                            <div class="auto-block__description text">
+                                Resize and compress your media before you serve it.
+                            </div>
+                            <div class="btn btn-coming-soon text">
+                                Coming soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="apis-page__img-media" data-switcher>
+                    <div class="img-media__links" >
+                        <ul class="img-media__links-list switcher" >
+                            <li data-switcher-show="0" data-switcher-selected class=" apis__el-list text">
+                                Upload a file
+                            </li>
+                            <li data-switcher-show="1" class="apis__el-list text">
+                                Download a file
+                            </li>
+                            <li data-switcher-show="2" class="apis__el-list text">
+                                List files
+                            </li>
+                            <li data-switcher-show="3" class="apis__el-list text">
+                                Move and rename files
+                            </li>
+                            <li data-switcher-show="4" class="apis__el-list text">
+                                Delete files
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="code-example">
+                        <div class="code__body">
+                            <div class="code__body-text">
+                                <div class="number-stroke code-text">
+                                    <div class="number-srtoke__code" >1</div>
+                                    <div class="number-srtoke__code" >2</div>
+                                    <div class="number-srtoke__code" >3</div>
+                                    <div class="number-srtoke__code" >4</div>
+                                    <div class="number-srtoke__code" >5</div>
+                                    <div class="number-srtoke__code" >6</div>
+                                    <div class="number-srtoke__code" >7</div>
+                                    <div class="number-srtoke__code" >8</div>
+                                    <div class="number-srtoke__code" >9</div>
+                                    <div class="number-srtoke__code" >10</div>
+                                    <div class="number-srtoke__code" >11</div>
+                                    <div class="number-srtoke__code" >12</div>
+                                    <div class="number-srtoke__code" >13</div>
+                                </div>
+                                <div class="code__text">
+                                    <div class="text-srtoke__code"></div>
+                                    <div data-switcher-name="0" class="text-srtoke__code"><span class="comment-code-text">// Upload an image to the "avatars" bucket</span></div>
+                                    <div data-switcher-name="1" class="text-srtoke__code"><span class="comment-code-text">// Download a file to the "avatars" bucket</span></div>
+                                    <div data-switcher-name="2" class="text-srtoke__code"><span class="comment-code-text">// List files an image to the "avatars" bucket</span></div>
+                                    <div data-switcher-name="3" class="text-srtoke__code"><span class="comment-code-text">// Move and rename files to the "avatars" bucket</span></div>
+                                    <div data-switcher-name="4" class="text-srtoke__code"><span class="comment-code-text">// Delete files to the "avatars" bucket</span></div>
+                                    <div class="text-srtoke__code"><span class="blue-code-text">const</span> <span class="white-code-text">spaceCat = event.target.files[0]</span></div>
+                                    <div class="text-srtoke__code"><span class="blue-code-text">const</span> <span class="white-code-text">{ data, error } =</span><span class="blue-code-text">await</span><span class="white-code-text">supabase</span></div>
+                                    <div class="text-srtoke__code"><span class="white-code-text">.storage</span></div>
+                                    <div class="text-srtoke__code"><span class="white-code-text">.from(</span><span class="green-code-text">'avatars'</span><span class="white-code-text">)</span></div>
+                                    <div class="text-srtoke__code"><span class="white-code-text">.upload(</span><span class="green-code-text">'space-cat.png'</span><span class="white-code-text">, spaceCat)</span></div>
+                                </div>
+                            </div>
+                            <div class="btn btn-copy">
+                                <div class="btn-copy__conteiner">
+                                    <i class="copy"></i>
+                                    <span class="btn-copy__text text">Copy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code__footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="int-page">
+            <div class="int-page__container">
+                <div class="int-page__text-content"> 
+                    <div class="int-page__heading">
+                        <div class="int-page__heading-text text">
+                            Integrates natively <br> with Supabase Auth
+                        </div>
+                        <div class="int-page__second-text text">
+                            Using Postgres Row Level Security to create Object access rules.
+                        </div>
+                        <div class="int-page__third-text text">
+                            Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres functions, and even your own metadata to write policies.
+                        </div>
+                    </div>
+                    <div class="btn btn-exp-doc">
+                        <i class="arrow-right-top"></i>
+                        <span class="btn-exp-doc__text text"> Expore documentation </span>
+                    </div>
+                </div>
+                
+                <div class="apis-page__img-media">
+                    <div class="img-media__links" data-switcher>
+                        <ul class="img-media__links-list switcher">
+                            <li data-switcher-show="0" data-switcher-selected class="apis__el-list text">
+                                Public access to a bucket
+                            </li>
+                            <li data-switcher-show="1" class="apis__el-list text">
+                                Public access to a folder
+                            </li>
+                            <li data-switcher-show="2" class="apis__el-list text">
+                                Authenticated access to a bucket
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="code-example">
+                        <div class="code__body">
+                            <div class="code__body-text">
+                                <div class="number-stroke code-text">
+                                    <div class="number-srtoke__code" >1</div>
+                                    <div class="number-srtoke__code" >2</div>
+                                    <div class="number-srtoke__code" >3</div>
+                                    <div class="number-srtoke__code" >4</div>
+                                </div>
+                                <div class="code__text">
+                                    <div class="text-srtoke__code"><span class="blue-code-text">create policy</span> <span class="green-code-text">"Public Access"</span></div>
+                                    <div class="text-srtoke__code"><span class="blue-code-text">on<span class="white-code-text">storage.objects</span></span><span>  </span><span class="blue-code-text">for all</span></div>
+                                    <div class="text-srtoke__code"><span class="blue-code-text">using</span><span class="white-code-text">( bucket_id =</span><span class="green-code-text">'avatars'</span><span class="white-code-text">);</span></div>
+                                </div>
+                            </div>
+                            <div class="btn btn-copy">
+                                <div class="btn-copy__conteiner">
+                                    <i class="copy"></i>
+                                    <span class="btn-copy__text text">Copy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code__footer-pb">
+                            <div class="footer__text text">
+                                <div class="head__footer-text">Allow public CRUD access to a bucket</div>
+                                <div class="second__footer-text">This will allow any user access to the bucket named 'avatars'</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="end-page">
+            <div class="end-page__text text">
+                <span class="end-page__text-1">Build in a weekend,</span>
+                <span class="end-page__text-2">scale to millions</span>
+            </div>
+            <div class="btn btn-start-end-page text">
+                Start your project
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__conteiner">
+            <div class="footer__logo">
+                <img src="image/logo.png">
+                <div class="social-network">
+                    <i class="twitter"></i>
+                    <i class="git-o"></i>
+                </div>
+            </div>
+            <div class="footer__navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-el text el-head">
+                        Product
+                    </li>
+                    <li class="navigation-el text">
+                        Database
+                    </li>
+                    <li class="navigation-el text">
+                        Authentication
+                    </li>
+                    <li class="navigation-el text">
+                        Storage
+                    </li>
+                    <li class="navigation-el text">
+                        Functions
+                    </li>
+                    <li class="navigation-el text">
+                        Coming soon
+                    </li>
+                    <li class="navigation-el text">
+                        Pricing
+                    </li>
+                </ul>
+                <ul class="navigation-list">
+                    <li class="navigation-el text el-head">
+                        Resources
+                    </li>
+                    <li class="navigation-el text">
+                        Support
+                    </li>
+                    <li class="navigation-el text">
+                        Case Studies
+                    </li>
+                    <li class="navigation-el text">
+                        System Status
+                    </li>
+                    <li class="navigation-el text">
+                        Terms of service
+                    </li>
+                </ul>
+                <ul class="navigation-list">
+                    <li class="navigation-el text el-head">
+                        Developers
+                    </li>
+                    <li class="navigation-el text">
+                        Documentation
+                    </li>
+                    <li class="navigation-el text">
+                        API Reference
+                    </li>
+                    <li class="navigation-el text">
+                        Guides
+                    </li>
+                </ul>
+                <ul class="navigation-list">
+                    <li class="navigation-el text el-head">
+                        Company
+                    </li>
+                    <li class="navigation-el text">
+                        Blog
+                    </li>
+                    <li class="navigation-el text">
+                        Open Source
+                    </li>
+                    <li class="navigation-el text">
+                        Humans.txt
+                    </li>
+                    <li class="navigation-el text">
+                        Lawyers.txt
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__end">
+            <div class="supabase-inc text">
+                © Supabase Inc
+            </div>
+            <div class="inp-btn">
+                <i class="sun"></i>
+                <div class="toogle-el">
+                    <label class="toggle-control">
+                        <input type="checkbox" checked="checked" id="switch_checkbox_nowrite">
+                        <span class="control"></span>
+                    </label>
+                </div>
+                <i class="moon"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
